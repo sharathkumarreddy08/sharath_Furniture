@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   line-height: 10vh;
+}
+header strong img{
+    height: 5.5vh; 
+}
+header  strong{
+    font-size: 2.6rem;
+    color: blue; 
+}
+.head{
+    border: 1px solid #FAD7A0;
+    background-color: #FAD7A0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head input{
+    background-color: #FAD7A0;
+    border: none;
+    outline: none;
+}
+.head img{
+    height: 5vh;
+}
+header .headlist ul{
+    list-style: none;
+    display: flex;
+}
+.headlist ul li{
+    margin-left: 1rem;
+}
+.headlist ul li span{
+    color: #F8C471;
+}
+
+   /* main section start now */
+
+main{
+    margin: 1.5rem;
+}
+.one .left {
+    height: 100%;
+}
+
+.one .left h4{
+    border: 1px solid  #FAD7A0 ;
+    border-radius: 16px;
+    padding: 0.2rem;
+    background-color: #FAD7A0 ;
+    text-align: center;
+}
+.left h3{
+    color: blue;
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+}
+.left h2{
+    color: orange;
+    font-size: 2.2rem;
+    margin-top: 0.8rem;
+}
+ .one .left p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 3.8vh;
+}
+
+.left .items img{
+   height: 8vh;
+}
+.items .item{
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+ .left .items .item p{
+    margin-left: 2.2rem;
+}
+button{
+    margin-top: 2rem;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    border: 1px solid #F8C471;
+    border-radius: 20px;
+    background-color: #F8C471;
+}
+
+ .underline{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.one .right img{
+    margin-top: 2rem;
+    border:1px solid #FAD7A0;
+    border-radius: 70%;
+    background-color: #FAD7A0 ;
+}
+.two .top{
+    margin-top: 2rem;
+    background-color: #FAD7A0;
+    
+}
+.top h2{
+    border: 1px solid #FAD7A0;
+    background-color: #FAD7A0;
+    width: 80%;
+    padding: 0.3rem;
+}
+
+ .trends .trend{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.trend img{
+    border: 1px solid;
+    border-radius: 16px;
+    background-color: white;
+}
+.two .bottom {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #F6DDCC;
+    background-color: #F6DDCC;
+}
+.bottom h2{
+    margin-left: 2rem;
+}
+.two .bottom img .bot{
+    border: 1px solid black;
+}
+.third{
+    height: 70%;
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 3.5rem;
+   font-size: 1rem;
+   line-height: 4vh;
+}
+.third img{
+    height: 15vh;
+}
+
+.third .rest{
+    padding-top: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F6DDCC;
+    border-radius: 24px;
+    background-color: #F6DDCC;
+}
+.third p span{
+   color: blue;
+   padding-top: 3rem;
+}
+.third .study{
+    padding-top: 1rem;
+     margin-top: 2rem;
+     border: 1px solid #F6DDCC;
+     border-radius: 20px;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #F6DDCC;
+
+}
+.fourth{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border: 1px solid #FAD7A0;
+    background-color: #FAD7A0;
+}
+.four img{
+    height: 15vh;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 22px;
+    background-color: white;
+
+}
+.fours{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    margin-left: 1.5rem;
+}
+.fourth .right{
+    padding: 2rem;
+}
+.right h2{
+    line-height: 5vh;
+    font-size: 1.8rem;
+}
+.right h2 span{
+    color: darkblue;
+}
+ .fourth .right p{
+    padding-top:1rem ;
+   font-size: 1.2rem;
+   line-height: 3.7vh;
+}
+.lists .list ul{
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem;
+    list-style: none;
+}
+.list ul li{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+.list ul li span{
+    border: 1px solid #F8C471;
+    background-color: #F8C471;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.fourth .right button{
+    margin-top: 2rem;
+    padding: 0.3rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: #F8C471;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.five h2{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+h2 span{
+    color: #F8C471 ;
+}
+.five p{
+    padding-top: 1rem;
+    line-height: 4.3vh;
+    font-size: 1.3rem;
+}
+ .five ul{
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .five ul li{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+
+.furnis .furni{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4vh;
+}
+.furni img{
+    height:130px;
+    width: 100px;
+    border: 1px solid #F6DDCC;
+    background-color:#F6DDCC;
+    border-radius: 29px;
+}
+ /*span{
+    margin-top: 0.6rem;
+}
+*/
+strong{
+    /*margin-top: 0.6rem;*/
+    color: blue;
+}
+strong span{
+    color: #52BE80;
+}
+.sofa{
+    margin-top: 1.5rem;
+    border: 1px solid #FAD7A0;
+    background-color: #FAD7A0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+}
+.six{
+    margin-top: 2.3rem;
+    padding-top: 1rem;
+    border: 1px solid #FAD7A0;
+    border-radius: 10px;
+    background-color: #FAD7A0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.six h2 span{
+    color: #F8C471;
+}
+.six p{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.six .boxes .box{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 12px;
+    margin: 1rem;
+    display: flex;
+    font-size: 1.2rem;
+    line-height: 3.9vh;
+    padding: 0.7rem;
+   
+}
+.box .profile img{
+    height: 50px;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 1.4rem;
+}
+.box .comm{
+    margin-left: 1rem;
+}
+.seven h2{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.2rem;
+    color:#808B96  ;
+}
+.blog img{
+    height: 200px;
+    width: auto;
+}
+.blogs .blog{
+    margin-top: 2rem;
+    border: 1px solid ;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    width: 60%;
+    background-color: #F6DDCC;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.eight{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    line-height: 5vh;
+    font-size: 1.2rem;
+    border: 1px solid #FAD7A0;
+    background-color: #FAD7A0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.collects .collect{
+      border: 1px solid white;
+      border-radius: 16px;
+      background-color: white;
+     margin-top: 1rem;
+}
+.nine{
+    margin-top: 2rem;
+}
+iframe{
+    height: 300px;
+    width: 350px;
+}
+footer span{
+    color: blue;
+     margin-top: 2rem;
+     display: flex;
+     font-size: 2.5rem;
+     justify-content: center;
+     align-items: center;
+}
+footer span img{
+    height: 6.2vh;
+}
+footer p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.2rem;
+    line-height: 5vh;
+}
+.foot{
+    width: 60%;
+    border: 1px solid #F8C471;
+    border-radius: 16px;
+    background-color: #F8C471;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    
+}
+.foot input{
+    background-color: #F8C471;
+    border: none;
+    outline: none;
+}
+.foot img{
+    height: 5vh;
+}
+.footers .footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ul li{
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+       /* Tab session */
+@media screen and (min-width:700px){
+  header{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header .head{
+    margin-left: 1.3rem;
+  }
+  .one .left h4{
+    width: 35%;
+  }
+  .one .left h3{
+    font-size: 2.1rem;
+  }
+  .one .left h2{
+    font-size: 2.3rem;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .one .right img{
+    height: 500px;
+    width: 500px;
+  }
+  .two .top{
+    line-height: 7vh;
+  }
+ 
+  .two .top .trends{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .trends .trend{
+    height: 24vh;
+    margin-left: 2rem;
+  }
+  .two .top h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #808B96;
+  }
+  .two .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+  }
+  .third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+  }
+  .third .rest{
+    height: 250px;
+    width: 350px;
+    font-size: 1.3rem;
+  }
+  .third .study{
+    height: 250px;
+    width: 350px;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+  }
+  .fourth .fours .four img{
+   height: 180px;
+   margin: 1rem;
+  }
+  .fourth .right h2{
+    font-size: 2rem;
+  }
+  .five h2{
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .five ul li{
+    font-size: 1.8rem;
+    margin-left: 3rem;
+  }
+  .five .furnis{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .furnis .furni img{
+   height: 200px;
+   width: 200px;
+    }
+    .five .sofa{
+        margin: 3.5rem;
+        line-height: 1vh;
+        
+    }
+    .five .sofa button{
+        background-color: white;
+    }
+    .five .sofa img{
+    height: 300px;
+    }
+    .six h2{
+     font-size: 2.2rem;
+    }
+    .six p{
+        font-size: 1.3rem;
+    }
+    .six .boxes{
+       margin-left: 6.7rem;
+       margin-right: 6.7rem;
+    }
+    .six .boxes .box{
+        font-size: 1.4rem;
+    }
+    .seven .blogs{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogs .blog{
+        margin: 1rem;
+    }
+   .seven .blogs .blog img{
+    height: 200px;
+    width: auto;
+   }
+   .eight {
+    height: 60vh;
+    font-size: 1.4rem;
+   }
+   .eight .collects{
+    display: flex;
+   }
+   .eight .collects .collect{
+    margin-left: 1.5rem;
+    height: 33vh;
+    width: 170px;
+   }
+   .nine{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   iframe{
+    height: 430px;
+    width: 90%;
+   }
+   footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    margin-bottom: 2.5rem;
+   }
+   
+   footer .footers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+   }
+   .footers .footer{
+    margin-left: 1.3rem;
+   }
+}
+/* Laptop session */
+@media screen and (min-width:1200px){
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+    header .head{
+        width: 30%;
+    }
+    header .head input{
+      width: 100%;
+    }
+    header .headlist ul li{
+        font-size: 1.7rem;
+        font-weight: lighter;
+        margin-right: 2rem;
+    }
+    .one{
+        height: 90vh;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 55% auto;
+    }
+    .one .left{
+        line-height: 5.5vh;
+    }
+    .one .left h4{
+        width: 40%;
+        font-size: 1rem;
+    }
+    .one .left h3{
+        margin-top: 2rem;
+    }
+    .one .left h2{
+        margin-top: 2rem;
+    }
+    .one .left p{
+        width: 65%;
+    }
+
+    .one .left .items{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .left .items .item{
+        font-size: 2rem;
+    }
+    .two .top{
+        margin: 3rem;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 24% auto;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    }
+    .top .trends .trend{
+        height: 200px;
+    }
+    .two .bottom{
+        height: 40vh;
+        width: 70%;
+        margin: auto;
+    }
+    .third{
+        width: 40%;
+       margin: auto;
+    }
+    .third .rest{
+        display: grid;
+        grid-template-columns: 50% auto;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .third .study{
+        display: grid;
+        grid-template-columns: 50% auto;
+        font-size: 1.2rem;
+    }
+    /*
+    .third .rest #red{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #red{
+        background-color: red;
+    }
+        */
+   
+    .fourth{
+        display: grid;
+        grid-template-columns: 50% auto;
+        align-items: center;
+
+    } 
+    
+   .four .abs{
+    position: relative;
+        width: 40%;
+        left: 64px;
+    }
+
+       .four .abs1{
+        position: relative;
+        top: 45px;
+         right: 100px;
+       } 
+    
+      .fours .four .abs2{
+        width: 70%;
+        position: relative;
+        bottom: 39px;
+        left: 55px;
+      }
+      .four .abs3{
+        position: relative;
+        right: 30px;
+        width: 36%;
+        height: 20px;
+      }
+   
+    .five p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .five ul li{
+        width: 90%;
+        font-size: 1.5rem;
+        justify-content: space-between;
+    }
+    .five .furnis{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-left: 5rem;
+        margin-bottom: 3rem;
+    }
+    .five .furnis .furni img{
+        height: 140px;
+        width: 130px;
+    }
+    .five .sofa{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    .five .sofa img{
+        margin-left: 4.5rem;
+    }
+    .six .boxes .contain {
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+    }/*
+    .boxes  .box{
+        justify-content: space-around;
+        align-items: center;
+    }*/
+    .six .boxes .container{
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+    .seven .blogs .blog{
+        height: 600px;
+        width: 300px;
+        padding: 1rem;
+    }
+    .seven .blogs .blog img{
+        height: 450px;
+        width: auto;
+    
+    }
+    .eight{
+        font-size: 2rem;
+        line-height: 8vh;
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+    .eight .collects .collect{
+        width: 220px;
+        height: 250px;
+        
+    }
+    .eight .collects .collect img{
+        height: 220px;
+    }
+    .nine iframe{
+        height: 400px;
+        width: 800px;
+    }
+    footer .up{
+        width: 30%;
+    }
+    .footers .footer{
+        margin-left: 6.8rem;
+        line-height: 7vh;
+    }
+    
+}
+  
+
+
+
